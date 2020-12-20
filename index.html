@@ -1,37 +1,236 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bursa Menüsü</title>
+	<style >
+		
+		html{
+			background-color: #DDAF94;
+		}
 
-You can use the [editor on GitHub](https://github.com/ogztrk/a-simple-responsive-design-example/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		*{
 
-### Markdown
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		}
 
-```markdown
-Syntax highlighted code block
+		
 
-# Header 1
-## Header 2
-### Header 3
+		.about{
 
-- Bulleted
-- List
+				
+    clear: right;
+    
+    text-align: center;
+    overflow: auto;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+   
+}
 
-1. Numbered
-2. List
+.row> div{
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+	 background-color :  white; 
+	 height: 800px;
+	 overflow: auto;
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+}
 
-### Jekyll Themes
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 300px;
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ogztrk/a-simple-responsive-design-example/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+}
 
-### Support or Contact
+		}
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+		p{
+
+			background-color: lightgreen;
+			height: 500px;
+			width: 100px;
+			
+			overflow:auto;
+
+
+		}
+
+		.isim{
+
+			background-color: yellow;
+			
+			margin-right: 15px;
+			margin-top: 11px;
+			float: right;
+			font-size: 18px;
+			border: 1px solid black ;
+			border-style: dashed;
+			 font-family: 'Langar', cursive;
+;
+
+		}
+
+		.row{
+
+			width: 100%
+
+		}
+		@media (max-width: 620px){
+
+			.col-sd-1,.col-sd-2,.col-sd-3,.col-sd-4,.col-sd-5,.col-sd-6,.col-sd-7,.col-sd-8,.col-sd-9,.col-sd-10,.col-sd-11,.col-sd-12{
+				
+
+				float: left;
+				border: solid 10px #DDAF94;
+
+}
+				.col-sd-1 {width: 8.33%;}
+				  .col-sd-2 {width: 16.66%;}
+				  .col-sd-3 {width: 25%;}
+				  .col-sd-4 {width: 33.33%;}
+				  .col-sd-5 {width: 41.66%;}
+				  .col-sd-6 {width: 50%;}
+				  .col-sd-7 {width: 58.33%;}
+				  .col-sd-8 {width: 66.66%;}
+				  .col-sd-9 {width: 75%;}
+				  .col-sd-10 {width: 83.33%;}
+				  .col-sd-11 {width: 91.66%;}
+				  .col-sd-12 {width: 100%;}
+
+		}
+
+		@media (min-width: 621px) and (max-width: 960px){
+
+			.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,
+			.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+
+
+				float: left;
+				border: solid 10px #DDAF94;
+
+
+			}
+
+ .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25%;}
+  .col-md-4 {width: 33.33%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 50%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 75%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+
+		}
+
+
+		@media (min-width: 961px){
+
+			.col-1,
+			.col-2,
+			.col-3,
+			.col-4,
+			.col-5,
+			.col-6,
+			.col-7,
+			.col-8,
+			.col-9,
+			.col-10,
+			.col-11,
+			.col-12{
+
+				float: left;
+
+								border: solid 10px #DDAF94;
+				
+			}
+
+ .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+		}										
+
+	</style>
+
+</head>
+<body>
+	<h1 style="text-align: center;margin-top: 10px;margin-bottom: 50px;font-family: 'Langar', cursive;">Capital Of Gastronomy:Bursa</h1>
+
+	<div class="row">
+		
+		<div  class="col-md-6 col-4 col-sd-12"> <p class="isim"> tahinli pide </p>   
+
+					<img class="center" src="tahinli-pide-resimli-yemek-tarifi(15).jpg">
+
+
+		  <p class="about">   A tahini roll or tahini bread roll (Armenian: Թահինով Հաց, Greek: ταχινόπιττα or τασιηνόπιττα, Turkish: tahinli çörek) is a sweet pastry found commonly in the cuisines of Armenia, Cyprus, Greece and Turkey. It's also found in Arab cuisine where it is called khubz tahini. They can be found in some of Los Angeles' Armenian bakeries, sometimes in smaller sizes than a typical tahini roll. They are popular as a street food in Cyprus.
+
+The dough includes sugar and oil and has been described as having a texture between a bread and a cookie. It is leavened with yeast and can be baked after the first rise. Sometimes the pastry may be soaked in syrup made with sweeteners like sugar and honey, and flavored with cinnamon. While not required by all recipes, cinnamon is sometimes added to the tahini filling.
+		</p>
+
+</div>
+
+<div  class="col-md-6 col-4 col-sd-12">  <p class="isim" style="background-color: purple;"> iskender  </p>    
+
+<img class="center" src="iskender.jpg">
+
+ <p class="about">İskender kebap is one of the best-known dishes of northwestern Turkey. It takes its name from its inventor, İskender Efendi, who lived in Bursa in the late 19th century Ottoman Empire.
+
+The dish consists of döner kebab prepared from thinly cut grilled lamb topped with hot tomato sauce over pieces of pita bread and generously slathered with melted sheep butter and yogurt. Tomato sauce and melted butter are generally poured over the dish, at the table.
+	
+</p>
+
+</div>
+<div  class="col-md-6 col-4 col-sd-12"> <p class="isim" > inegöl köfte  </p><p class="about">İnegöl köfte, is grilled meatballs (köfte) specific to İnegöl, Bursa. It was created by Balkans people, a Turkish immigrant who came from Balkans[citation needed] to İnegöl in the late 19th century. Kneaded in round shape, the meatballs are cooked on a grill. Fame of the İnegöl meatballs has spread throughout Turkey. Production of the İnegöl meatballs started in the 1930s and quickly spread all over the country. The most important feature of the Inegol Meatballs is that no seasoning is used. Each meatball is between 12 and 15 grams and is round. Some places make it flat as well. İnegöl meatballs consist of veal, lamb, salt, sodium-bicarbonate and onion mixture in specific proportions. Prepared meatballs are refrigerated for 2–3 hours and they are ready to be cooked.
+</p>
+ <img class="center" src="inegol-kofte-yemekcom.jpg">
+
+</div>
+<div  class="col-md-6 col-4 col-sd-12"> <p class="isim" style="background-color:purple ;"> kemalpaşa  </p> 
+
+	<img class="center" src="kemalpaşaa.jpeg">
+	<p class="about">Kemal Pasha dessert (Turkish: Kemalpaşa tatlısı) is a Turkish dessert dish. It originates from the district of Mustafa Kemalpaşa, Bursa, in Turkey. Traditionally it is made using a cheese variety that is particular to the region.
+
+The dessert is prepared from a dough of flour, unsalted cheese, semolina, egg, water and baking powder. The dough is formed into small balls that are fried and then boiled in syrup. It can be eaten fresh or dried. In dried form it is often packaged in boxes of 24-50 portions. It is served with cream in winter and with ice cream in summer.
+</p>
+
+</div>
+<div  class="col-md-6 col-4 col-sd-12"> <p class="isim"> rakı </p> 
+
+	<img class="center" src="rakı.jpg">
+
+  <p class="about">Raki or rakı (/rɑːˈkiː/, /rɑːˈkuː/, /rɑːˈkɜːr/, Turkish pronunciation: [ɾaˈkɯ]) is a sweetened, often anise-flavoured, alcoholic drink that is made in Albania, and popular in Turkic countries, Turkey, Greece and in the Balkan countries as an apéritif. It is often served with seafood or meze. It is comparable to several other alcoholic beverages available around the Mediterranean and the Middle East, e.g. pastis, ouzo, sambuca, arak and aguardiente.
+
+In Crete tsikoudia is a pomace brandy that is sometimes called rakı. It is used to make rakomelo, which is flavoured with honey and cinnamon. Rakomelo is served warm during winter months.
+</p>
+</div>
+		
+
+	</div>
+	
+</body>
+</html>
